@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "zinc_melon_seeds",
+  "pattern": [
+    "brb",
+    "rsr",
+    "brb"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:zinc_ingots"
+    },
+    "b": {
+      "tag": "c:zinc_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:zinc_melon_seeds"
+  }
+}

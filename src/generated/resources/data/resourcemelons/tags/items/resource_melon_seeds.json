@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "resourcemelonstechreborn:peridot_melon_seeds",
+    "resourcemelonstechreborn:red_garnet_melon_seeds",
+    "resourcemelonstechreborn:ruby_melon_seeds",
+    "resourcemelonstechreborn:sapphire_melon_seeds",
+    "resourcemelonstechreborn:yellow_garnet_melon_seeds",
+    "resourcemelonstechreborn:aluminum_melon_seeds",
+    "resourcemelonstechreborn:iridium_melon_seeds",
+    "resourcemelonstechreborn:lead_melon_seeds",
+    "resourcemelonstechreborn:nickel_melon_seeds",
+    "resourcemelonstechreborn:platinum_melon_seeds",
+    "resourcemelonstechreborn:silver_melon_seeds",
+    "resourcemelonstechreborn:tin_melon_seeds",
+    "resourcemelonstechreborn:titanium_melon_seeds",
+    "resourcemelonstechreborn:tungsten_melon_seeds",
+    "resourcemelonstechreborn:zinc_melon_seeds"
+  ]
+}

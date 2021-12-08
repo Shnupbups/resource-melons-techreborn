@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:silver_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:silver_melon_seeds"
+  }
+}

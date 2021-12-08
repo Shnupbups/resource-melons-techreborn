@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "resourcemelonstechreborn:item/red_garnet_melon_slice"
+  }
+}

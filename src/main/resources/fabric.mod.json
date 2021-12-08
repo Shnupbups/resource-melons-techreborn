@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "resourcemelonstechreborn",
+  "version": "$version",
+
+  "name": "Resource Melons - Tech Reborn",
+  "description": "Adds extra melons for Tech Reborn materials",
+  "authors": [
+    "Shnupbups"
+  ],
+
+  "contact": {
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/resource-melons",
+	"sources": "https://github.com/Lemonszz/resource-melons",
+	"issues": "https://github.com/Lemonszz/resource-melons/issues"
+  },
+  "license": "LGPLv3",
+  "icon": "assets/resourcemelonstechreborn/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shnupbups.resourcemelonstechreborn.RMTRCommon"
+	],
+	"client": [
+      "com.shnupbups.resourcemelonstechreborn.RMTRClient"
+	],
+    "fabric-datagen": [
+      "com.shnupbups.resourcemelonstechreborn.datagen.RMTRDatagen"
+    ]
+  },
+
+  "accessWidener" : "resourcemelonstechreborn.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.6.1",
+    "fabric": "*",
+    "cloth-config": ">=6.0.45"
+  }
+}

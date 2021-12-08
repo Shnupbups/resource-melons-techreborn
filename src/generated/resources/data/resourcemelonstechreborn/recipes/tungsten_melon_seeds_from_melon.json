@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:tungsten_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:tungsten_melon_seeds"
+  }
+}

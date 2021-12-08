@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "resourcemelonstechreborn:ruby_melon_seeds"
+    ]
+  },
+  "criteria": {
+    "has_ruby_storage_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:ruby_blocks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "resourcemelonstechreborn:ruby_melon_seeds"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ruby_storage_block",
+      "has_the_recipe"
+    ]
+  ]
+}

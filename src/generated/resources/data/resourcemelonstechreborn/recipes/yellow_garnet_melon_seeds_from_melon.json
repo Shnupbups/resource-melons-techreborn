@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:yellow_garnet_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:yellow_garnet_melon_seeds"
+  }
+}

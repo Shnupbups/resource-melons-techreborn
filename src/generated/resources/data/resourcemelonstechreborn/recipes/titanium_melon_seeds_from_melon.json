@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:titanium_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:titanium_melon_seeds"
+  }
+}

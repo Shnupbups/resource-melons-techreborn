@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "aluminum_melon_seeds",
+  "pattern": [
+    "brb",
+    "rsr",
+    "brb"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:aluminum_ingots"
+    },
+    "b": {
+      "tag": "c:aluminum_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:aluminum_melon_seeds"
+  }
+}

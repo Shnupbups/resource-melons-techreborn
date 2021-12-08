@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:lead_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:lead_melon_seeds"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "resourcemelonstechreborn:lead_melon_seeds_from_melon"
+    ]
+  },
+  "criteria": {
+    "has_lead_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "resourcemelonstechreborn:lead_melon"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "resourcemelonstechreborn:lead_melon_seeds_from_melon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lead_melon",
+      "has_the_recipe"
+    ]
+  ]
+}

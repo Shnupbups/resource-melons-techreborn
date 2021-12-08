@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "resourcemelonstechreborn:block/iridium_melon_top",
+    "side": "resourcemelonstechreborn:block/iridium_melon_side"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "resourcemelonstechreborn:item/sapphire_melon_seeds"
+  }
+}

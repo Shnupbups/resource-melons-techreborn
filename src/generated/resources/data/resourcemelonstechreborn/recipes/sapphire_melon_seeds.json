@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sapphire_melon_seeds",
+  "pattern": [
+    "rbr",
+    "bsb",
+    "rbr"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:sapphires"
+    },
+    "b": {
+      "tag": "c:sapphire_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:sapphire_melon_seeds"
+  }
+}

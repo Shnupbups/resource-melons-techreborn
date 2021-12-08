@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "resourcemelonstechreborn:peridot_melon"
+    }
+  ],
+  "result": {
+    "item": "resourcemelonstechreborn:peridot_melon_seeds"
+  }
+}

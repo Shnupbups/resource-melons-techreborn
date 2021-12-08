@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "resourcemelonstechreborn:peridot_melon_stem",
+    "resourcemelonstechreborn:peridot_melon_attached_stem",
+    "resourcemelonstechreborn:peridot_melon",
+    "resourcemelonstechreborn:iridium_melon_stem",
+    "resourcemelonstechreborn:iridium_melon_attached_stem",
+    "resourcemelonstechreborn:iridium_melon",
+    "resourcemelonstechreborn:tungsten_melon_stem",
+    "resourcemelonstechreborn:tungsten_melon_attached_stem",
+    "resourcemelonstechreborn:tungsten_melon"
+  ]
+}

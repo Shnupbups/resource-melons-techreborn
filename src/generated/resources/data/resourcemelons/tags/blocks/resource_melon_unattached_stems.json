@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "resourcemelonstechreborn:peridot_melon_stem",
+    "resourcemelonstechreborn:red_garnet_melon_stem",
+    "resourcemelonstechreborn:ruby_melon_stem",
+    "resourcemelonstechreborn:sapphire_melon_stem",
+    "resourcemelonstechreborn:yellow_garnet_melon_stem",
+    "resourcemelonstechreborn:aluminum_melon_stem",
+    "resourcemelonstechreborn:iridium_melon_stem",
+    "resourcemelonstechreborn:lead_melon_stem",
+    "resourcemelonstechreborn:nickel_melon_stem",
+    "resourcemelonstechreborn:platinum_melon_stem",
+    "resourcemelonstechreborn:silver_melon_stem",
+    "resourcemelonstechreborn:tin_melon_stem",
+    "resourcemelonstechreborn:titanium_melon_stem",
+    "resourcemelonstechreborn:tungsten_melon_stem",
+    "resourcemelonstechreborn:zinc_melon_stem"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "resourcemelonstechreborn:silver_melon_seeds_from_melon"
+    ]
+  },
+  "criteria": {
+    "has_silver_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "resourcemelonstechreborn:silver_melon"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "resourcemelonstechreborn:silver_melon_seeds_from_melon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_silver_melon",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sss",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "resourcemelonstechreborn:nickel_melon_slice"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:nickel_melon"
+  }
+}

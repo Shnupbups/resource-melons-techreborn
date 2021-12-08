@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "resourcemelonstechreborn:iridium_melon_seeds_from_melon"
+    ]
+  },
+  "criteria": {
+    "has_iridium_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "resourcemelonstechreborn:iridium_melon"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "resourcemelonstechreborn:iridium_melon_seeds_from_melon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iridium_melon",
+      "has_the_recipe"
+    ]
+  ]
+}

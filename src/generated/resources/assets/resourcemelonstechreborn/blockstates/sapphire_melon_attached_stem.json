@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "resourcemelonstechreborn:block/sapphire_melon_attached_stem",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "resourcemelonstechreborn:block/sapphire_melon_attached_stem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "resourcemelonstechreborn:block/sapphire_melon_attached_stem",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "resourcemelonstechreborn:block/sapphire_melon_attached_stem"
+    }
+  }
+}

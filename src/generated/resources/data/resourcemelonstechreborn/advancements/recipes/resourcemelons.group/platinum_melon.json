@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "resourcemelonstechreborn:platinum_melon"
+    ]
+  },
+  "criteria": {
+    "has_platinum_melon_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "resourcemelonstechreborn:platinum_melon_slice"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "resourcemelonstechreborn:platinum_melon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_platinum_melon_slice",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "resourcemelonstechreborn:block/yellow_garnet_melon_top",
+    "side": "resourcemelonstechreborn:block/yellow_garnet_melon_side"
+  }
+}

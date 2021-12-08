@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "resourcemelonstechreborn:block/red_garnet_melon_attached_stem",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "resourcemelonstechreborn:block/red_garnet_melon_attached_stem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "resourcemelonstechreborn:block/red_garnet_melon_attached_stem",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "resourcemelonstechreborn:block/red_garnet_melon_attached_stem"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_melon_seeds",
+  "pattern": [
+    "brb",
+    "rsr",
+    "brb"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:tin_ingots"
+    },
+    "b": {
+      "tag": "c:tin_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:tin_melon_seeds"
+  }
+}

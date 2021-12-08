@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "titanium_melon_seeds",
+  "pattern": [
+    "rbr",
+    "bsb",
+    "rbr"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:titanium_ingots"
+    },
+    "b": {
+      "tag": "c:titanium_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:titanium_melon_seeds"
+  }
+}

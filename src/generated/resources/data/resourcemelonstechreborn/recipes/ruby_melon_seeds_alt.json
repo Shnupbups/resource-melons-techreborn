@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby_melon_seeds",
+  "pattern": [
+    "brb",
+    "rsr",
+    "brb"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:rubies"
+    },
+    "b": {
+      "tag": "c:ruby_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:ruby_melon_seeds"
+  }
+}

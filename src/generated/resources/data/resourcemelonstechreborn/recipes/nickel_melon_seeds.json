@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "nickel_melon_seeds",
+  "pattern": [
+    "rbr",
+    "bsb",
+    "rbr"
+  ],
+  "key": {
+    "r": {
+      "tag": "c:nickel_ingots"
+    },
+    "b": {
+      "tag": "c:nickel_blocks"
+    },
+    "s": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "resourcemelonstechreborn:nickel_melon_seeds"
+  }
+}
