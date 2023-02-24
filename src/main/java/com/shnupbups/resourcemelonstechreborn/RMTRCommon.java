@@ -2,11 +2,11 @@ package com.shnupbups.resourcemelonstechreborn;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.tag.TagFactory;
 
 import com.shnupbups.resourcemelons.RMCommon;
 import com.shnupbups.resourcemelons.core.MelonType;
@@ -27,11 +27,11 @@ public class RMTRCommon implements ModInitializer {
 		}
 	}
 
-	public static Tag.Identified<Item> getCommonItemTag(String path) {
-		return TagFactory.ITEM.create(new Identifier("c", path));
+	public static TagKey<Item> getCommonItemTag(String path) {
+		return TagKey.of(Registry.ITEM_KEY, new Identifier("c", path));
 	}
 
-	public static Tag.Identified<Block> getCommonBlockTag(String path) {
-		return TagFactory.BLOCK.create(new Identifier("c", path));
+	public static TagKey<Block> getCommonBlockTag(String path) {
+		return TagKey.of(Registry.BLOCK_KEY, new Identifier("c", path));
 	}
 }
