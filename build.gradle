@@ -17,8 +17,6 @@ repositories {
 }
 
 loom {
-	accessWidenerPath = file("src/main/resources/resourcemelonstechreborn.accesswidener")
-
 	runs {
 		datagenClient {
 			client()
