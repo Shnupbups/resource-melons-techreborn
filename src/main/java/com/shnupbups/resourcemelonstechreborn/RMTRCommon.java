@@ -20,11 +20,7 @@ public class RMTRCommon implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		for (TRMelonTypes melonBuilder : TRMelonTypes.values()) {
-			MelonType type = melonBuilder.build();
-			type.register();
-			RMCommon.MELONS.add(type);
-		}
+
 	}
 
 	public static TagKey<Item> getCommonItemTag(String path) {
