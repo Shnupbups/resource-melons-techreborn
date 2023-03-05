@@ -1,12 +1,11 @@
 package com.shnupbups.resourcemelonstechreborn.datagen.provider;
 
 import java.util.function.Consumer;
-
-import net.minecraft.data.server.RecipesProvider;
-import net.minecraft.data.server.recipe.CraftingRecipeJsonFactory;
+import net.minecraft.data.server.RecipeProvider;
+import net.minecraft.data.server.recipe.CraftingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonFactory;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonFactory;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -37,25 +36,25 @@ public class RMTRRecipesProvider extends FabricRecipesProvider {
 	}
 
 	public static void offerRecipes(MelonType melonType, TRMelonTypes melonBuilder, Consumer<RecipeJsonProvider> exporter) {
-		createSeedsRecipe(melonType, melonBuilder).criterion(RecipesProvider.hasItem(melonType.resourceBlock()), RecipesProvider.conditionsFromTag(melonBuilder.getResourceBlockCommonItemTag())).offerTo(exporter);
-		createAltSeedsRecipe(melonType, melonBuilder).criterion(RecipesProvider.hasItem(melonType.resourceBlock()), RecipesProvider.conditionsFromTag(melonBuilder.getResourceBlockCommonItemTag())).offerTo(exporter, CraftingRecipeJsonFactory.getItemId(melonType.seeds()) + "_alt");
-		createSeedsFromMelonRecipe(melonType).criterion(RecipesProvider.hasItem(melonType.melon()), RecipesProvider.conditionsFromItem(melonType.melon())).offerTo(exporter, CraftingRecipeJsonFactory.getItemId(melonType.seeds()) + "_from_melon");
-		createMelonRecipe(melonType).criterion(RecipesProvider.hasItem(melonType.slice()), RecipesProvider.conditionsFromItem(melonType.slice())).offerTo(exporter);
+		createSeedsRecipe(melonType, melonBuilder).criterion(RecipeProvider.hasItem(melonType.resourceBlock()), RecipeProvider.conditionsFromTag(melonBuilder.getResourceBlockCommonItemTag())).offerTo(exporter);
+		createAltSeedsRecipe(melonType, melonBuilder).criterion(RecipeProvider.hasItem(melonType.resourceBlock()), RecipeProvider.conditionsFromTag(melonBuilder.getResourceBlockCommonItemTag())).offerTo(exporter, CraftingRecipeJsonBuilder.getItemId(melonType.seeds()) + "_alt");
+		createSeedsFromMelonRecipe(melonType).criterion(RecipeProvider.hasItem(melonType.melon()), RecipeProvider.conditionsFromItem(melonType.melon())).offerTo(exporter, CraftingRecipeJsonBuilder.getItemId(melonType.seeds()) + "_from_melon");
+		createMelonRecipe(melonType).criterion(RecipeProvider.hasItem(melonType.slice()), RecipeProvider.conditionsFromItem(melonType.slice())).offerTo(exporter);
 	}
 
-	public static CraftingRecipeJsonFactory createSeedsRecipe(MelonType melonType, TRMelonTypes melonBuilder) {
-		return ShapedRecipeJsonFactory.create(melonType.seeds()).input('r', melonBuilder.getResourceCommonTag()).input('b', melonBuilder.getResourceBlockCommonItemTag()).input('s', Items.MELON_SEEDS).pattern("rbr").pattern("bsb").pattern("rbr").group(CraftingRecipeJsonFactory.getItemId(melonType.seeds()).getPath());
+	public static CraftingRecipeJsonBuilder createSeedsRecipe(MelonType melonType, TRMelonTypes melonBuilder) {
+		return ShapedRecipeJsonBuilder.create(melonType.seeds()).input('r', melonBuilder.getResourceCommonTag()).input('b', melonBuilder.getResourceBlockCommonItemTag()).input('s', Items.MELON_SEEDS).pattern("rbr").pattern("bsb").pattern("rbr").group(CraftingRecipeJsonBuilder.getItemId(melonType.seeds()).getPath());
 	}
 
-	public static CraftingRecipeJsonFactory createAltSeedsRecipe(MelonType melonType, TRMelonTypes melonBuilder) {
-		return ShapedRecipeJsonFactory.create(melonType.seeds()).input('r', melonBuilder.getResourceCommonTag()).input('b', melonBuilder.getResourceBlockCommonItemTag()).input('s', Items.MELON_SEEDS).pattern("brb").pattern("rsr").pattern("brb").group(CraftingRecipeJsonFactory.getItemId(melonType.seeds()).getPath());
+	public static CraftingRecipeJsonBuilder createAltSeedsRecipe(MelonType melonType, TRMelonTypes melonBuilder) {
+		return ShapedRecipeJsonBuilder.create(melonType.seeds()).input('r', melonBuilder.getResourceCommonTag()).input('b', melonBuilder.getResourceBlockCommonItemTag()).input('s', Items.MELON_SEEDS).pattern("brb").pattern("rsr").pattern("brb").group(CraftingRecipeJsonBuilder.getItemId(melonType.seeds()).getPath());
 	}
 
-	public static CraftingRecipeJsonFactory createMelonRecipe(MelonType melonType) {
-		return ShapedRecipeJsonFactory.create(melonType.melon()).input('s', melonType.slice()).pattern("sss").pattern("sss").pattern("sss");
+	public static CraftingRecipeJsonBuilder createMelonRecipe(MelonType melonType) {
+		return ShapedRecipeJsonBuilder.create(melonType.melon()).input('s', melonType.slice()).pattern("sss").pattern("sss").pattern("sss");
 	}
 
-	public static CraftingRecipeJsonFactory createSeedsFromMelonRecipe(MelonType melonType) {
-		return ShapelessRecipeJsonFactory.create(melonType.seeds()).input(melonType.melon());
+	public static CraftingRecipeJsonBuilder createSeedsFromMelonRecipe(MelonType melonType) {
+		return ShapelessRecipeJsonBuilder.create(melonType.seeds()).input(melonType.melon());
 	}
 }
